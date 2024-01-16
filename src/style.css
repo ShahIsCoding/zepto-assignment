@@ -1,0 +1,102 @@
+.chips-container {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 3px solid blue;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  background-color: #e2e2e2;
+  padding: 4px;
+  margin: 0.3em 0.6em;
+  border-radius: 20px;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.chip button {
+  color: black;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+#searchInput {
+  padding: 0.6rem;
+  /* width: 100%; */
+  font-size: 18px;
+  /* border-bottom: 3px solid blue; */
+  background: transparent;
+}
+
+.suggestion-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+}
+
+.suggestion-list li {
+  padding: 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+}
+
+.suggestion-list li:last-child {
+  border-bottom: none;
+}
+
+.autocomplete-container {
+  width: 80%;
+}
+
+.headingtext {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: blue;
+}
+
+.avatar {
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.smallavatar {
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 10px;
+  color: black;
+  margin-right: 30px;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+  /* This removes the default focus outline on some browsers */
+}
+
+.li {
+  display: flex;
+  justify-content: space-between;
+}
